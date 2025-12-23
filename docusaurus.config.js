@@ -29,7 +29,6 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'duotail.com', // Usually your GitHub org/user name.
   projectName: 'duotail-docs', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
