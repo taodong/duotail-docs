@@ -8,47 +8,30 @@ Let's discover our **Email Proxy Service in less than 5 minutes**.
 
 ## Purpose
 
-The sole purpose of our service is to grant every person full control over tailoring their incoming emails. 
+**Our mission is simple: to provide every user with total control over their inbox and how they receive email.**
 
-We're convinced that every user deserves a curated inbox. To make that a reality, we provide our full suite of incoming email controls to all customers, free of charge.
+We're convinced that every person deserves a curated inbox. To make that a reality, we provide our full suite of incoming email controls to all customers, free of charge.
 
 ## Key Concepts
 
-There are three key concepts (terminologies) which are crucial to use our services:
-- Channel: a channel holds configurations for any email addresses starting with its name. For example, a channel "a_happy.rhino" is the umbrella of emails "a_happy.rhino@duotail.com", "a_happy.rhino_pounce@duotail.com", "a_happy.rhino_nap@duotail.com" etc. 
-- Route:
-- Contact:
+To get the most out of our services, it is important to understand these three core concepts:
+- **Channel**: A channel acts as an "umbrella" for all email addresses starting with its name. For example, owning the channel `a_happy.rhino` gives you control over `a_happy.rhino@duotail.com`, `a_happy.rhino_sports@duotail.com`, and `a_happy.rhino_food@duotail.com`.
 
-### What you'll need
+- **Route**: A Route defines the rules for incoming emails. The text following the last underscore in an address is the Route ID. For example, in `a_happy.rhino_food@duotail.com`, "food" is the route. If a route rule allows `deliciousgrass.com`, any emails from that domain will be delivered to your inbox.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- **Contact**: A Contact is a trusted sender assigned to a channel. Emails originating from a Contact bypass Route configurations to reach any address under that channel. For example, if `angry.gazelle@example.com` is a Contact for a_happy.rhino, their emails will always be delivered to `a_happy.rhino@duotail.com`, `_sports`, and `_food` regardless of specific route rules.
 
-## Generate a new site
+## What You'll Need
 
-Generate a new Docusaurus site using the **classic template**.
+As our service is in its early stages, our domain is still being recognized by major email providers. To ensure you receive our communications, please whitelist `duotail.com` in your email settings. This will prevent our messages from being incorrectly flagged as junk.
 
-The classic template will automatically be added to your project after you run the command:
+## Getting Started
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+To try our service, you can sign up for a free account. Upon successful registration, you will own the channel `a_<your_username>`. For example, a user named `happy.rhino` would own the channel `a_happy.rhino`.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Get Support
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+We are happy to assist you with any issues or answer any questions you may have. You can reach us through these two main channels:
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/welcome.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Technical support: `support@duotail.com`
+- Other concerns: `contact@duotail.com` 
