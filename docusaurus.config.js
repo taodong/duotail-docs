@@ -75,12 +75,6 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Document',
-          },
-          {
             label: 'duotail.com',
             position: 'right',
             href: 'https://www.duotail.com'
