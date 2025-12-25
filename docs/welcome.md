@@ -16,7 +16,7 @@ We're convinced that every person deserves a curated inbox. To make that a reali
 ## Key Concepts
 
 To get the most out of our services, it is important to understand these three core concepts:
-- **Channel**: A channel acts as an "umbrella" for all email addresses starting with its name. For example, owning the channel `a_happy.rhino` gives you control over `a_happy.rhino@duotail.com`, `a_happy.rhino_sports@duotail.com`, and `a_happy.rhino_food@duotail.com`.
+- **Channel**: A channel acts as an "umbrella" for all email addresses starting with its name. For example, owning the channel `a_happy.rhino` gives you control over `a_happy.rhino@duotail.com`, `a_happy.rhino_sports@duotail.com`, and `a_happy.rhino_food@duotail.com`. More details can be found in the [channel guide](/concepts/channel).
 
 - **Route**: A Route defines the rules for incoming emails. The text following the last underscore in an address is the Route ID. For example, in `a_happy.rhino_food@duotail.com`, "food" is the route. If a route rule allows `deliciousgrass.com`, any emails from that domain will be delivered to your inbox.
 
