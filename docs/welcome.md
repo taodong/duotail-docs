@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+sidebar_label: Welcome
 ---
 
 # Welcome to our Duotail Documentation 
@@ -24,6 +25,8 @@ To get the most out of our services, it is important to understand these three c
 ## What You'll Need
 
 As our service is in its early stages, our domain is still being recognized by major email providers. To ensure you receive our communications, please whitelist `duotail.com` in your email settings. This will prevent our messages from being incorrectly flagged as junk.
+
+[Gmail Guide](/tutorials/white-list-domain#whitelist-in-gmail) &nbsp;&nbsp;&nbsp;&nbsp; [Outlook Guide](/tutorials/white-list-domain#whitelist-in-outlook)
 
 ## Getting Started
 
