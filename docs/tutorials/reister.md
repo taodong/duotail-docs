@@ -11,7 +11,7 @@ To start using our service, begin by registering for a free account. The usernam
 
 ![Account Register Form](/img/tutorials/register/register_form.png)
 
-- **Name**: Enter your full name. This will appear as the sender name for all outgoing emails. (Length: 5–60 characters).
+- **Name**: Enter the name you want to use. This will appear as the fallback sender name for all outgoing emails. (Length: 5–60 characters).
 - **User Name**: This is your login ID. It must be between 5–32 characters and may only contain lowercase English letters, digits, and dots. **Note:** A dot cannot be used at the beginning or the end of the username.
 - **Password**: Your password must be between 12–64 characters. It must include at least one lowercase letter, one uppercase letter, one digit, and one special character (any standard English keyboard symbol).
 - **Email**: Provide your primary inbox address where you wish to receive forwarded emails. A confirmation link will be sent here. You cannot use a duotail.com address for this field.
