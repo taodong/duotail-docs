@@ -1,5 +1,6 @@
 ---
 sidebar_label: White List Our Domain
+sidebar_position: 1
 ---
 
 # How to Ensure Duotail Emails Reach Your Inbox
