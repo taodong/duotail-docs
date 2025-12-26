@@ -24,6 +24,8 @@ Once you click the Register button, you will be directed to a "Registration Succ
 
 The confirmation email will be sent by `donotreply@duotail.com` with title `New Email Confirmation`. It's content look like the example below. To finalize your registration and activate your account, simply click the link provided in the message. 
 
+The confirmation link is valid for only thirty minutes upon issuing. You can request another confirmation email through your `Account` page if the link is expired.  
+
 ![Confirmation Email](/img/tutorials/register/register_confirmation.png)
 
 **Note:** If you haven't [whitelisted](/tutorials/white-list-domain) `duotail.com` in your inbox, the confirmation email may be in your spam/junk folder. 
