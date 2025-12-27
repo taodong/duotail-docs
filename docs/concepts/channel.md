@@ -1,10 +1,11 @@
 ---
 sidebar_label: Channel
+sidebar_position: 1
 ---
 
 # Channel
 
-## What is a channel
+## What is a channel?
 
 A channel acts as an "umbrella" for all email addresses starting with its name. For example, owning the channel `a_happy.rhino` gives you ownership over any emails starting with `a_happy.rhino`, for example `a_happy.rhino@duotail.com`, `a_happy.rhino_sports@duotail.com`, and `a_happy.rhino_food@duotail.com`.
 
