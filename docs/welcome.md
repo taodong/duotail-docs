@@ -11,7 +11,7 @@ Let's discover our **Email Proxy Service in less than 5 minutes**.
 
 **Our mission is simple: to provide every user with total control over their inbox and how they receive email.**
 
-We're convinced that every person deserves a curated inbox. To make that a reality, we provide our full suite of incoming email controls to all customers, free of charge.
+We're convinced that every person deserves a curated inbox. To make that a reality, we provide our full suite of incoming email controls to all our customers, free of charge.
 
 ## Key Concepts
 
