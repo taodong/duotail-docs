@@ -20,7 +20,7 @@ To get the most out of our services, it is important to understand these three c
 
 - **Route**: A Route defines the rules for incoming emails. The text following the last underscore in an address is the Route ID. For example, in `a_happy.rhino_food@duotail.com`, `food` is the route. If a route rule allows `deliciousgrass.com`, any emails from that domain will be delivered to your inbox. More details can be found in the [route guide](/concepts/route).
 
-- **Contact**: A Contact is a trusted sender assigned to a channel. Emails originating from a Contact bypass Route configurations to reach any address under that channel. For example, if `angry.gazelle@example.com` is a Contact for a_happy.rhino, their emails will always be delivered to `a_happy.rhino@duotail.com`, `_sports`, and `_food` regardless of specific route rules.
+- **Contact**: A Contact is a trusted sender assigned to a channel. Emails originating from a Contact bypass Route configurations to reach any address under that channel. For example, if `angry.gazelle@example.com` is a Contact for a_happy.rhino, their emails will always be delivered to `a_happy.rhino@duotail.com`, `_sports`, and `_food` regardless of specific route rules. More details can be found in the [contact guide](/concepts/contact).
 
 ## What You'll Need
 

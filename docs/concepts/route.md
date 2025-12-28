@@ -5,9 +5,9 @@ sidebar_position: 2
 
 # Route
 
-## What is Route?
+## What is a Route?
 
-A Route defines the rules for incoming emails. The text following the last underscore in an address is the Route ID. For example, in `a_happy.rhino_food@duotail.com`, `food` is the route. If a route rule allows `deliciousgrass.com`, any emails from that domain will be delivered to your inbox.
+A **Route** defines the rules for incoming emails. The text following the last underscore in an address is the Route ID. For example, in `a_happy.rhino_food@duotail.com`, `food` is the route. If a route rule allows `deliciousgrass.com`, any emails from that domain will be delivered to your inbox.
 
 ## Route Email
 
