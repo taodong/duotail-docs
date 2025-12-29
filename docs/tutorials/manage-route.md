@@ -50,13 +50,13 @@ The **Essential** tab contains the primary fields required to create a route:
 ![Add Route Permissions](/img/tutorials/manage-route/add-route-permissions.png)
 The **Permissions** tab allows you to configure specific access rules for the route. You can manage two types of permissions: `Domain Permissions` and `Email Permissions`.
 
-#### Adding a Permission
+#### Add a Permission
 To add a new rule, enter the following details and click the **`+`** button:
 - **Name (Optional):** A label to help you identify the permission.
 - **Value:** The specific domain (e.g., example.com) or the full email address you wish to manage.
 - **Type:** A dropdown menu to specify whether the value is a `Domain` or an `Email`.
 
-#### Managing Permissions 
+#### Manage Permissions 
 A permission is successfully added once it appears as a "pill" on the tab. You can control the behavior of each permission by toggling its status:  
 - **Allowed (Green Pill):** Emails from the specified domain or address are permitted to pass through the route.  
 - **Rejected (Gray Pill):** Emails from the specified domain or address will be automatically blocked. 
@@ -65,7 +65,7 @@ You can switch between `Allowed` and `Rejected` status simply by clicking on the
 
 To understand how our system determines whether an email is permitted when multiple overlapping permissions exist, please refer to our [Route Guide](/concepts/route) for a detailed explanation of the decision hierarchy
 
-#### Removing a Permission
+#### Remove a Permission
 To permanently delete a permission from the route, click the **`x`** icon located at the right end of the permission pill.
 
 :::tip Empty Permission Subscription
@@ -74,9 +74,21 @@ We recommend leaving permissions undefined when creating a new **Subscription** 
 
 ## Update Routes
 You can update a route's configuration by clicking the 'Update' button located in the 'Actions' column of the 'Route Table'.
+![Update Route Essentials](/img/tutorials/manage-route/edit-route-essential.png)
+The `Edit Route` configuration window features the same two tabs—`Essential` and `Permissions`—for all route types.
+- **`Essential` Tab:** Allows you to update the route description, change the recipient email address, or modify the route status.
+- **`Permissions` Tab:** Displays all existing access rules for the route. You can refine these rules to suit your needs; for detailed instructions, please refer to the [Manage Permissions](/tutorials/manage-route#manage-permissions) section.
+
+If you are editing a `One Shot` route, an additional `Blocked` tab will appear. This allows you to manage the specific email addresses currently in the `stamped list`.
+
+### Manage Stamped List
+Every email address in the `One Shot` stamped list is displayed as a **red pill** within the **Blocked** tab. To remove an address from this list, simply click the **`x`** icon on the right side of the pill. Removing an address from the stamped list allows one additional email from that sender to pass through the route.
+![One Shot Stamped List](/img/tutorials/manage-route/stamped-list.png)
+The Blocked tab displays up to **30 email address pills** at a time. If you cannot find a specific address, use the search bar at the top to filter the list by typing any part of the email address.
+![One Shot Stamped List Search](/img/tutorials/manage-route/stamped-search.png)
 
 ## Related Topics
 
 You may also want to check out the following related topics
 
-[Route Guide](/concepts/route)
+[Route](/concepts/route)
