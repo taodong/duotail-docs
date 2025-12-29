@@ -4,6 +4,9 @@ sidebar_position: 3
 ---
 
 # Manage Channels
+:::info 
+**Channels** are a core feature of our platform and one of the key elements that set our service apart from others. If you are new to the system, we highly recommend reading our [Channel Guide](/concepts/channel) to get started.
+:::
 
 ## Channel Page
 Your Channel Page serves as your homepage and is the first screen you see after signing in. It displays a table of all the channels you own. Each row in the table provides the following details:
@@ -27,12 +30,14 @@ Available actions vary depending on the current status of your channel. The poss
 **Manage:** This allows you to access the main management page for a specific channel, where you can configure routes and manage your contacts.  
 ![Channel in Use](/img/concepts/channel/alias_ready_2.png)
 
-## Configure a Particular Channel
+## Configure an Individual Channel
 
-To configure a particular channel, you need to click the `Initialize` button or `Manage` button under the `Actions` column of the desired channel.   
+To configure an individual channel, you need to click the `Initialize` button or `Manage` button under the `Actions` column of the desired channel.   
 A sample channel configuration page for channel `a_happy.rhino` after initialization looks like the following:
 
 ![New Channel Page](/img/tutorials/manage_channel/new_channel_page.png)
+
+Each **Individual Channel** Page is divided into two sections: **[Channel Routing Configuration](/tutorials/manage-route)** and **[Channel Contacts Configuration](/tutorials/manage-contact)**. To help you navigate between these sections quickly, two additional items — `Channel` and `Contacts` — will appear in the top menu bar whenever you are on this page.
 
 Clicking the `HOME` menu at the top bar will return you to your main channel page.
 
@@ -40,4 +45,4 @@ Clicking the `HOME` menu at the top bar will return you to your main channel pag
 
 You may also want to check out the following related topics
 
-[Channel](/concepts/channel) 
+[Channel](/concepts/channel) &emsp; [Manage Routes](/tutorials/manage-route) &emsp; [Manange Contacts](/tutorials/manage-contact)
