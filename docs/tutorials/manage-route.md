@@ -21,7 +21,7 @@ Each row in the table provides a summary of a specific route's configuration:
 - **Recipient:** The destination email address where messages passing through this route are delivered.  
 - **Type:** The specific classification of the route - `Subscription` or `One Shot`.  
 - **Status:** The current state of the route - `Enabled`, `Disabled`, or `Locked`.
-- **Actions:** - Management tools available for the route.
+- **Actions:** Management tools available for the route.
 
 ## Update Default Channel Settings
 
@@ -73,7 +73,7 @@ We recommend leaving permissions undefined when creating a new **Subscription** 
 :::
 
 ## Update Routes
-You can update a route's configuration by clicking the 'Update' button located in the 'Actions' column of the 'Route Table'.
+You can update a route's configuration by clicking the `Update` button located in the `Actions` column of the `Route Table`.
 ![Update Route Essentials](/img/tutorials/manage-route/edit-route-essential.png)
 The `Edit Route` configuration window features the same two tabs—`Essential` and `Permissions`—for all route types.
 - **`Essential` Tab:** Allows you to update the route description, change the recipient email address, or modify the route status.
