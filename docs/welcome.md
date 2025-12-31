@@ -30,7 +30,9 @@ As our service is in its early stages, our domain is still being recognized by m
 
 ## Getting Started
 
-To try our service, you can sign up for a free account. Upon successful registration, you will own the channel `a_<your_username>`. For example, a user named `happy.rhino` would own the channel `a_happy.rhino`.
+To try our service, you can sign up for a free account. Upon successful registration, you will own the channel `a_<your_username>`. For example, a user named `happy.rhino` would own the channel `a_happy.rhino`, which means all the emails starting with `a_happy.rhino` at `duotail.com`.
+
+[How to register a free account](/tutorials/register)
 
 ## Get Support
 
