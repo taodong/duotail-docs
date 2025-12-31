@@ -11,10 +11,10 @@ sidebar_position: 3
 ## Channel Page
 Your Channel Page serves as your homepage and is the first screen you see after signing in. It displays a table of all the channels you own. Each row in the table provides the following details:
 ![Channel Ready](/img/tutorials/manage_channel/channel_ready_manage.png)
-**Channel:** This column displays the channel type icon followed by the channel name. This name also serves as the "local part" of your email address (the text appearing before the @ symbol).  
-**Email:** The destination email address where all messages passing through this channel are received.  
-**Status:** The current operational state of your channel.  
-**Actions:** Tools and options available to manage or modify your channel settings.  
+- **Channel:** This column displays the channel type icon followed by the channel name. This name also serves as the "local part" of your email address (the text appearing before the @ symbol).  
+- **Email:** The destination email address where all messages passing through this channel are received.  
+- **Status:** The current operational state of your channel.  
+- **Actions:** Tools and options available to manage or modify your channel settings.  
 
 :::note
 Your emails will only be processed once the channel has been initialized. When a channel is active and in use, you will see a `Manage` button located under the `Actions` column.
@@ -23,11 +23,11 @@ Your emails will only be processed once the channel has been initialized. When a
 ### Channel Actions
 Available actions vary depending on the current status of your channel. The possible actions include:
 
-**Activate:** This option appears if your email address has not yet been confirmed. You may also visit your account page to request a new confirmation email if the original was not received.  
+- **Activate:** This option appears if your email address has not yet been confirmed. You may also visit your account page to [request a new confirmation email](/tutorials/manage-account#verify-email) if the original was not received.  
 ![Channel Pending](/img/concepts/channel/alias_pending.png)
-**Initialize:** Use this action to set up and prepare your channel. A channel must be initialized before it can begin processing emails.   
+- **Initialize:** Use this action to set up and prepare your channel. A channel must be initialized before it can begin processing emails.   
 ![Channel to Initialize](/img/concepts/channel/alias_ready.png)
-**Manage:** This allows you to access the main management page for a specific channel, where you can configure routes and manage your contacts.  
+- **Manage:** This allows you to access the main management page for a specific channel, where you can configure routes and manage your contacts.  
 ![Channel in Use](/img/concepts/channel/alias_ready_2.png)
 
 ## Configure an Individual Channel
@@ -45,4 +45,4 @@ Clicking the `HOME` menu at the top bar will return you to your main channel pag
 
 You may also want to check out the following related topics
 
-[Channel](/concepts/channel) &emsp; [Manage Routes](/tutorials/manage-route) &emsp; [Manange Contacts](/tutorials/manage-contact)
+[Channel](/concepts/channel) &emsp; [Manage Routes](/tutorials/manage-route) &emsp; [Manange Contacts](/tutorials/manage-contact) &emsp; [Manage Emails](/tutorials/manage-account#manage-emails)
