@@ -10,7 +10,7 @@ The **History Page** is the centralized hub where all emails processed through y
 
 ![Free Plan History](/img/tutorials/manage-history/history-free-user.png)
 
-All email records from the past 30 days are directly accessible here. While we provide complimentary storage for 60 days for all processed emails, records older than 30 days must be manually retrieved. To request older records, please contact `support@duotail.com`.
+All email records from the past 30 days are directly accessible here.
 
 :::note Privacy Note
 We never view your email content without your explicit permission. Furthermore, once a record is deleted through the History page, it is removed permanently from our systems.
