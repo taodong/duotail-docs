@@ -33,7 +33,7 @@ There are two types of routes available for our users: subscription route and on
 A **Subscription Route** is designed to help users manage their email subscriptions effectively. It allows for the creation of comprehensive rules to tailor incoming email permissions specifically for subscription scenarios. Subscription route allows only **Domain Permission** and **Email Permission**. 
 
 #### First Email Auto Permission
-When a new Subscription Route is created, we recommend leaving the permissions undefined initially. If no permissions are set, the first email to reach the route will be automatically permitted. Furthermore, the host domain of that email will be added to your permission list with the status set to "Enabled." This feature is specifically designed to ensure that third-party confirmation emails reach your inbox without delay.
+When a new Subscription Route is created, we recommend leaving the permissions undefined initially. If no permissions are set, the first email to reach the route will be automatically permitted. Furthermore, both the host domain of that email and its root domain will be added to your permission list with the status set to "Enabled." This feature is specifically designed to ensure that third-party confirmation emails reach your inbox without delay.
 
 #### Subscription Route Incoming Email Decision Hierarchy
 When multiple permissions are set within a subscription route for emails from the same domain, the final decision is determined by a hierarchical "top-down" logic. The system searches for the most specific match first, moving to more general rules only if a match isn't found.
