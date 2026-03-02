@@ -6,7 +6,7 @@ sidebar_position: 3
 # Exit Policy
 We'll never hold your data hostage. Our message to any user decided to leave us is
 
-We're sorry that we failed to meet your need, but we're also happy you find some other service to make your life better.  
+We're sorry that we've failed to meet your need, but we're also happy you find some other service to make your life better.  
 
 Hope the following information will make your transition easy.
 
