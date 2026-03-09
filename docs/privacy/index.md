@@ -2,9 +2,10 @@
 title: Privacy Overview
 ---
 
-# Privacy
+# Privacy & Security
 
-**Your data isn't our gold, it's a risk we'd rather not hold**
+:::tip[**Your data isn't our gold, it's a risk we'd rather not hold!**]
+:::
 
 Personal data - we collect only minium personal data. [Personal Data Collect Policy](/privacy/personal-data)
 
