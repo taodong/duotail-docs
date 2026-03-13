@@ -8,9 +8,11 @@ sidebar_position: 4
 ## What is an Email Summary?
 An **Email Summary** is a system-generated table inserted at the beginning of every incoming email, providing a concise overview of the message's original content. This summary is automatically removed when you reply, ensuring the external recipient never sees it.
 
-We include the Email Summary for two key reasons:
+We include the Email Summary for following key reasons:
 - **Enhanced Visibility:** Standard email headers are often insufficient—especially on mobile platforms—for quickly identifying key details.
-- **Transparency and Security:** We believe users have the right to know what might be hidden within a message. The summary notifies you of "invisible" elements, such as whether the email contains tracking pixels or insecure links.
+- **Transparency and Security:** We believe users have the right to know what might be hidden within a message. The summary notifies you of "invisible" elements, such as whether the email contains tracking pixels or insecure links.  
+- **One-Click Sovereignty:** We provide a seamless way to unsubscribe from any sender directly from the summary. You can terminate unwanted connections instantly without the need to visit your management console.
+
 
 ## Email Summary Contents
 An **Email Summary** consists of three primary sections: **Sender Details**, **Email Alerts**, and **Action Shortcuts**.

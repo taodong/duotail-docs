@@ -23,6 +23,30 @@ Use `Change Password` button to update your account login password. You must pro
 
 ![Update Password](/img/tutorials/manage-account/update-password.png)
 
+### Deactivating Your Account
+
+We believe that true data sovereignty includes the right to leave. If you decide to move on from Duotail, you can manage your departure and data portability directly from your dashboard.
+
+#### 1. Download Email Configuration
+Before deactivating, we recommend exporting your routing logic. 
+
+* **Action:** Click the **"Download My Data"** button in your account settings.
+* **Result:** You will receive a JSON file containing all your channel configurations, route premissions, and all existing contacts. This ensures you can recreate your routing logic on another platform if needed.
+
+![Download Email Configuration](/img/tutorials/manage-account/download-data.png)
+
+#### 2. Deactivate Account
+Deactivating your account is an immediate and final action regarding your email routing.
+
+* **Process:** Click **"Deactivate Account"**. For your security, a confirmation window will appear requiring you to enter your password to authorize the request.
+![Deactivate Account](/img/tutorials/manage-account/deactivate-account.png)
+![Deactivate Account Form](/img/tutorials/manage-account/deactivate-account-form.png)
+
+:::warning
+* **Immediate Effect:** Once confirmed, you will be logged out immediately. All active email gateways associated with your account will cease to function instantly.
+* **Data Purge:** Your account information and encrypted records will be marked for deletion. All data will be permanently removed from our active infrastructure and backups during our next scheduled data purge process.
+:::
+
 ## Subscription Management
 ![Subscription Section](/img/tutorials/manage-account/subscription-section.png)
 This section provides details regarding your current service tier:
