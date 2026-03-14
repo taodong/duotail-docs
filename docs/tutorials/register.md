@@ -14,7 +14,18 @@ To start using our service, begin by registering for a free account. The usernam
 - **Name**: Enter the name you want to use. This will appear as the fallback sender name for all outgoing emails. (Length: 5–60 characters).
 - **User Name**: This is your login ID. It must be between 5–32 characters and may only contain lowercase English letters, digits, and dots. **Note:** A dot cannot be used at the beginning or the end of the username.
 - **Password**: Your password must be between 12–64 characters. It must include at least one lowercase letter, one uppercase letter, one digit, and one special character (any standard English keyboard symbol).
+- **Key Name**: Create a short label (e.g., `mykey1`) to help you identify which secret words are protecting your messages.
+    * **Constraint**: Maximum 8 characters.
+    * **Format**: Alphanumeric only ($A-Z, 0-9$). Case-insensitive.
+- **File Encryption Words**: These three secret words are the "entropy" used to generate your `X25519` encryption key.
+    * **Constraint**: Maximum 12 characters per word.
+    * **Format**: Case-sensitive. Supports letters, digits, and special characters (!@#$%^&*).
+    :::important Crucial
+    We do not store these words. If lost, any emails encrypted with them cannot be recovered.
+    :::
 - **Email**: Provide your primary inbox address where you wish to receive forwarded emails. A confirmation link will be sent here. You cannot use a duotail.com address for this field.
+
+For a detailed explanation of the `Key Name` and `File Encryption Words` fields, please see to [Understanding Encryption Fields](/tutorials/manage-account#understanding-the-form-fields) section.
 
 Once you click the Register button, you will be directed to a "Registration Success" screen. Simultaneously, a confirmation email will be sent to your provided email address.
 

@@ -23,6 +23,39 @@ Use `Change Password` button to update your account login password. You must pro
 
 ![Update Password](/img/tutorials/manage-account/update-password.png)
 
+### Update Encryption Words
+You can rotate your encryption credentials at any time. This is a powerful security feature that ensures your future communications are protected by fresh keys.
+
+#### How to Update
+Click the "Update Encryption Words" button.
+![Update Encryption Key](/img/tutorials/manage-account/update-encryption-words.png)
+A window will appear with two sections: Key Name and File Encryption Words. Fill in your new details and click Save.
+![Update Encryption Key](/img/tutorials/manage-account/update-encryption-words-form.png)
+
+#### Understanding the Form Fields
+If you are new to zero-knowledge encryption, here is exactly what these fields do:
+
+1. **Key Name**  
+    Think of this as a public label for your secret words.  
+    *What it does:* It helps you remember which set of words you are currently using. If you have multiple keys over time, this label tells you which one to use when downloading a specific email.
+    *Rules:* Maximum 8 characters. Use only letters and numbers (e.g., key2026, youguess). It's case insensitive.
+2. **File Encryption Words**  
+    These are your private master keys.   
+    *What it does:* Our system takes these three words and uses them as the "ingredient" to mathematically build a lock for your emails.   
+    *Our Privacy Promise:* We never store these words. They exist only in your mind or your password manager.   
+    *Rules:* Each word must be 12 characters or fewer. You can use letters, numbers, and special characters (like !@#$). These are case-sensitive (e.g., "Apple" is different from "apple").
+
+:::important The "Future-Only" Rule
+When you update your encryption words, the following happens:
+    - New Emails: All emails arriving after the update will be locked with your new words.   
+    - Old Emails: Any emails currently in your buffer were locked with your previous words. To download them, you will still need to provide the words associated with the old `Key Name`.
+:::
+
+***
+
+#### 🛠️ Technical Transparency
+Curious about the math? For a full technical breakdown of how we use `Argon2id` and `X25519` to turn your three words into a zero-knowledge lock, visit our **[Data Encryption Protocol](/privacy/data-encryption-protocol)** page.
+
 ### Deactivating Your Account
 
 We believe that true data sovereignty includes the right to leave. If you decide to move on from Duotail, you can manage your departure and data portability directly from your dashboard.

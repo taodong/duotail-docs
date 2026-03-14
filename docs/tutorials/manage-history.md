@@ -40,7 +40,18 @@ If an email is processed successfully, you will see one of the following statuse
 In rare cases where the system fails to process a record (e.g., corrupted email content), the status will reflect the error, and you will be given the option to download the original file for manual review.
 
 ### Download Email
-If an email is stored in our system, a `Download` button will appear in the Actions column. Clicking this allows you to download the email in .eml format, which can be opened by almost all local mail clients.
+If an email is stored in our system, a Download button will appear in the Actions column. Clicking this allows you to retrieve the message in .eml format, which is compatible with almost all local mail clients (such as Outlook, Apple Mail, or Thunderbird).
+
+The download process depends on whether the record is encrypted:
+
+1. **Encrypted Messages**  
+If the email was secured using your encryption settings, a window will appear prompting you for your three secret words.   
+The Challenge: The window title will display the Key Name (e.g., Encryption Words For: bff) so you know exactly which set of words to provide.   
+The Result: Once you enter the correct words and click Download, our system reconstructs the decryption key in memory, unlocks the file, and begins the download immediately.
+![download-challenge](/img/tutorials/manage-history/download-decryption-form.png)
+
+2. **Legacy or Unprotected Records**  
+If an email record was not protected by an encryption key (for example, older legacy records or specific system notifications), the file will begin downloading to your computer immediately after the Download button is clicked, without a password prompt.
 
 ### Delete Email
 If an email is stored, a `Delete` button will also be available. Clicking this deletes the file permanently; no recovery is possible after this action.

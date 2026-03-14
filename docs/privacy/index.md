@@ -22,7 +22,7 @@ We do not operate like a traditional, permanent email archive. Our gateway acts 
     2. **Automated:** To ensure your digital footprint remains minimal, any message remaining in the buffer is automatically and permanently purged after 30 days.
 * **Irrecoverable Deletion:** Once a purge is triggered—whether manually or automatically—the data is wiped from our active infrastructure and is completely unrecoverable.
 
-*For a full technical breakdown of our `X25519`, `AES-256`, and `Argon2id` implementation, please visit our [Encryption Documentation](./data-security).*
+*For a full technical breakdown of our `X25519`, `AES-256`, and `Argon2id` implementation, please visit our [Encryption Documentation](/privacy/data-encryption-protocol).*
 
 ---
 
@@ -54,6 +54,6 @@ We believe your browsing behavior is your own business.
 
 You maintain full ownership of your routing logic and your presence on our infrastructure.
 
-* **Portable Configuration:** You are never locked in. You may [download your full email configuration](/tutorials/manage-account#1-download-email-configuration) at any time directly from your **[Account Page](/tutorials/manage-account)**.
-* **Account Deactivation:** You may [deactivate your account](/tutorials/manage-account#2-deactivate-account) at any time from your **[Account Page](/tutorials/manage-account)** as well. This instantly terminates all active email routing.
+* **Portable Configuration:** You are never locked in. You may [download your full email configuration](/tutorials/manage-account#1-download-email-configuration) at any time directly from your **Account Page**.
+* **Account Deactivation:** You may [deactivate your account](/tutorials/manage-account#2-deactivate-account) at any time from your **Account Page** as well. This instantly terminates all active email routing.
 * **Scheduled Data Purge:** Following deactivation, your account enters a decommissioned state. To ensure a complete and irreversible wipe, all encrypted records are purged through our **scheduled data purge process**. This process ensures that data is systematically removed from both active clusters and redundant backups, typically finalized within one week.
