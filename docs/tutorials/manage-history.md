@@ -12,8 +12,8 @@ The **History Page** is the centralized hub where all emails processed through y
 
 All email records from the past 30 days are directly accessible here.
 
-:::note Privacy Note
-We never view your email content without your explicit permission. Furthermore, once a record is deleted through the History page, it is removed permanently from our systems.
+:::important Privacy & Security Note
+**Your data is cryptographically isolated.** We do not - and physically cannot - view the content of your encrypted emails. Because your decryption keys are generated only in your browser's transient memory using your secret words, it is mathematically impossible for anyone, including Duotail administrators, to access your stored messages.
 :::
 
 ##The History Table
