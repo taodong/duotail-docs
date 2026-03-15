@@ -87,6 +87,56 @@ Every email address in the `One Shot` stamped list is displayed as a **red pill*
 The Blocked tab displays up to **30 email address pills** at a time. If you cannot find a specific address, use the search bar at the top to filter the list by typing any part of the email address.
 ![One Shot Stamped List Search](/img/tutorials/manage-route/stamped-search.png)
 
+## 👂 Route Listener 
+A Route Listener is a temporary, high-intelligence state you can apply to your channel. It is designed to simplify the process of aggregating multiple subscriptions or new senders into a single route without manual whitelisting.
+
+### 🎯 Purpose
+The Route Listener allows you to bypass existing filters for a short window to capture a new connection.   
+- **Seamless Aggregation:** Easily bring new subscription services into an existing route.
+- **Auto-Permissioning:** Instead of manually configuring whitelists, the listener performs [First Email Auto-Permission](/concepts/route#first-email-auto-permission) - automatically whitelisting the domain of the next incoming email.
+
+### ⚙️ How it Works
+When a Route Listener is active on a specific Route ID:  
+1. It temporarily ignores existing permission blocks for that route.
+2. It waits for **the next incoming email**.
+3. Once an email arrives, the gateway automatically whitelists the sender's domain.
+4. The listener then **self-destructs**, returning the route to its standard, secure state.
+
+### ⏳ Lifecycle & Limitations
+#### The Lifecycle
+A Route Listener remains active until one of the following occurs:
+1. **Successful Capture:** An email is processed and the domain is whitelisted.
+2. **Expiration:** The user-defined "Active Duration" is reached.
+3. **Manual Cancellation:** The user stops the listener via the dashboard.
+
+#### Key Constraints
+- **Subscription Only:** Listeners can only be added to existing, Enabled routes of the "Subscription" type.
+- **Single Instance:** To prevent gateway conflicts, each channel can only have one active Route Listener at a time. Activating a new listener will automatically cancel any previous one on that channel.
+- **Visibility:** The **"Add Route Listener"** button only appears if your channel has at least one enabled subscription route.
+
+### 🛠 Instructions
+#### Adding a Route Listener
+1. Click the **"Add Route Listener"** button above your route table.
+2. Configure the listener through the **"Add Route Listener"** form which contains the following two options and Save
+    * **Route ID:** Select the specific route you wish to open for auto-permissioning.
+    * **Active Duration:** Select a lifespan from the dropdown: `30 minutes`, `1 hour`, or `8 hours`.
+
+:::tip Security Recommendation
+Always choose the **shortest** timeframe in which you expect the next email to arrive. This minimizes the "open window" for your route.
+:::
+![Route Listener Form](/img/tutorials/manage-route/add-route-listener.png)
+
+#### Removing a Route Listener
+If a listener is active, a yellow notification banner will appear at the top of your Route table.
+    - To stop the listener manually, click the "Turn Off" button located on the right side of the banner.
+![Route Listener Banner](/img/tutorials/manage-route/route-listener-banner.png)
+
+:::tip The "Just-in-Time" Workflow
+The Route Listener is perfect for signing up for new services or newsletters.
+- **The Workflow:** Select 30 minutes, hit Save, and then immediately submit your email address on the third-party website.
+- **Why it’s better:** By choosing the shortest duration, you ensure that once the confirmation email arrives and the domain is whitelisted, the "airlock" closes immediately, keeping your route secure against any other potential noise.
+:::
+
 ## Related Topics
 
 You may also want to check out the following related topics

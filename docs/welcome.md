@@ -5,7 +5,7 @@ sidebar_label: Welcome
 
 # Welcome to our Duotail Documentation 
 
-Let's discover our **Email Proxy Service in less than 5 minutes**.
+**Master the world’s first Segmented Email Gateway in less than 5 minutes.**
 
 ## Purpose
 
