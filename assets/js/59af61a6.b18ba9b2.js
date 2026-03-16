@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkduotail_docs=globalThis.webpackChunkduotail_docs||[]).push([[174],{5332(a){a.exports=JSON.parse('{"tags":[{"label":"release","permalink":"/tags/release","count":1},{"label":"security","permalink":"/tags/security","count":1},{"label":"privacy","permalink":"/tags/privacy","count":1}]}')}}]);
