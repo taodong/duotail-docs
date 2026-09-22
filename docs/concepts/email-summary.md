@@ -31,6 +31,7 @@ Alerts are displayed only when "invisible" or potentially risky elements are det
 - **Tracked:** The email contains tracking pixels designed to monitor when you open the message.
 - **Insecure Link:** The email contains URLs that do not use the secure `https` protocol.
 - **Insecure Domains:** When insecure links are detected, the system lists the specific domains associated with them for your review.
+- **Public Email Service:** Shown on a [Subscription Route](/concepts/route#route-type), which assumes the sender is a business. This alert flags when the sender's email address instead belongs to a public email service (such as Gmail, Yahoo, or Outlook)—a practice common among small businesses, but one that also makes the sender harder to verify.
 
 ### Action Shortcuts
 Action Shortcuts are one-click links that allow you to instantly update how the system handles future emails from this sender. The available shortcuts vary based on the [Route Type](/concepts/route#route-type):
