@@ -23,13 +23,23 @@ To start using our service, begin by registering for a free account. The usernam
     :::important Crucial
     We do not store these words. If lost, any emails encrypted with them cannot be recovered.
     :::
-- **Email**: Provide your primary inbox address where you wish to receive forwarded emails. A confirmation link will be sent here. You cannot use a duotail.com address for this field.
+- **Email**: Provide your primary inbox address where you wish to receive forwarded emails. A confirmation link will be sent here. It must be a mailbox at another email provider: addresses on `duotail.com` are refused with the message *Addresses on duotail.com can't be used as your email. Please use an email address from another provider.*
 
-For a detailed explanation of the `Key Name` and `File Encryption Words` fields, please see to [Understanding Encryption Fields](/tutorials/manage-account#understanding-the-form-fields) section.
+### Field Help
 
-Once you click the Register button, you will be directed to a "Registration Success" screen. Simultaneously, a confirmation email will be sent to your provided email address.
+The **Key Name** and **File Encryption Words** fields have a **?** icon next to their labels. Hover over the icon, or click or tap it, to see a short explanation of the field. Press `Esc` or click anywhere else to close it.
 
-![Register Sucess Screen](/img/tutorials/register/register_success.png)
+![Key Name help tip](/img/tutorials/register/register_help_tip.png)
+
+The three encryption words are hidden as you type. Use the eye button at the end of the row to show or hide them.
+
+For a detailed explanation of the `Key Name` and `File Encryption Words` fields, please see the [Understanding Encryption Fields](/tutorials/manage-account#understanding-the-form-fields) section.
+
+### Registration Success
+
+Once you click the Register button, you will be directed to a "Registration Success" screen. It shows your main email address (for example `a_happy.rhino@duotail.com`) and a link to log in. You can create more email addresses later from your Home page with the **Create Email Address** button. At the same time, a confirmation email is sent to the email address you provided.
+
+![Register Success Screen](/img/tutorials/register/register_success.png)
 
 ## Confirmation Email
 

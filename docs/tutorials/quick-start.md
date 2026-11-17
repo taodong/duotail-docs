@@ -83,6 +83,10 @@ Use this when you want a separate inbox with its own main email address, for exa
 4. **Identity Channel** – if this checkbox is shown, tick it to create an address without the `a_` prefix. See [Identity Channel](/concepts/channel#identity-channel) for what this means.
 5. Click **Submit**.
 
+:::note Channel limits
+The Basic plan includes up to 3 alias inboxes (including the one created when you registered) and 1 identity inbox. When you have used all of one kind, the window says so, for example *You've reached your plan's identity channel limit (1).*, and only offers the kind you can still add. See [Channel Limits by Plan](/concepts/channel#channel-limits-by-plan).
+:::
+
 The new inbox appears in the **Inboxes** table. If its row shows **Initialize**, click it to finish the setup. Use **Copy Email** on the row to copy the main email address.
 
 :::note
@@ -193,8 +197,14 @@ The other buttons on a pending row:
 - **Delete** – discard the email without sending it.
 
 :::note Monthly sending limit
-Your plan includes a monthly number of emails you can send this way. If you have reached it, a notice tells you so when you click **Send**, and the email stays in **Send Pending** until the limit resets next month.
+Your plan includes a monthly number of emails you can send this way. Each recipient counts as one email. If you have reached the limit, a notice tells you so when you click **Send**, and the email stays in **Send Pending** until the limit resets next month.
 :::
+
+### Sending to Several People at Once
+
+You can put several `2_` addresses in **To**, **Cc** and **Bcc** of the same email. Everyone receives it from your Duotail address, and people in **To** and **Cc** can reply all. If some of the addresses don't have a contact yet, the email waits in **Send Pending** and **Send** walks you through creating each missing contact. See [Sending to Several Contacts](/concepts/contact#sending-to-several-contacts-paid-plans) for the details.
+
+When you receive an email that was also sent to other people, you can use **Reply All** in your mail app. See [Reply All on Received Emails](/concepts/contact#reply-all-on-received-emails).
 
 ## Where to Go Next
 
