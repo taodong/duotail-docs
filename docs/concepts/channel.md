@@ -31,6 +31,8 @@ On our web page, an alias channel is marked with a theater icon <img src="/img/c
 
 ![Alias Chnnael Example](/img/concepts/channel/alias_ready_2.png)
 
+Because anyone can choose the sender name of an alias channel, an email you write to a contact's `2_` address from an alias channel carries a short notice at the top: *Sent from an alias address. The sender name was chosen by the alias owner and may not match their real identity.* The notice stays in the email and is hidden when the email is printed. See [Alias Notice](/concepts/contact#alias-notice) for details.
+
 ### Identity Channel
 
 An **Identity Channel** is assigned to users whose real-world identities have been successfully verified. Unlike alias channels, an Identity Channel email address has no prefix (e.g., `isacc.swordblessing@duotail.com`). This serves as a "verified badge," signaling to recipients that the sender's identity is authentic and confirmed.
@@ -42,4 +44,13 @@ On our web page, an identity channel is marked with an id badge icon <img src="/
 :::note
 Identity channel name contains at least one dot. It's used to differentiate from our organization emails such as `support@duotail.com` 
 ::: 
+
+### Channel Limits by Plan
+
+| Plan | Alias channels | Identity channels |
+|---|---|---|
+| **Free** | The alias channel created when you register | Not available |
+| **Basic** | Up to 3, including the one created when you register | Up to 1 |
+
+Every channel you have created counts toward the limit, whether or not it has been activated yet. Channels you already own are never removed, even if you have more than your plan allows; you just can't add new ones until you are under the limit.
 

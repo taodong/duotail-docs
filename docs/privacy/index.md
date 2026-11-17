@@ -55,5 +55,6 @@ We believe your browsing behavior is your own business.
 You maintain full ownership of your routing logic and your presence on our infrastructure.
 
 * **Portable Configuration:** You are never locked in. You may [download your full email configuration](/tutorials/manage-account#1-download-email-configuration) at any time directly from your **Account Page**.
-* **Account Deactivation:** You may [deactivate your account](/tutorials/manage-account#2-deactivate-account) at any time from your **Account Page** as well. This instantly terminates all active email routing.
-* **Scheduled Data Purge:** Following deactivation, your account enters a decommissioned state. To ensure a complete and irreversible wipe, all encrypted records are purged through our **scheduled data purge process**. This process ensures that data is systematically removed from both active clusters and redundant backups, typically finalized within one week.
+* **Account Deletion:** You may [delete your account](/tutorials/manage-account#2-delete-account) at any time, from your **Account Page** or from the public **Delete Account** page with your username and password. Deletion is immediate and permanent: all active email routing stops at once, and your account, channels, routes, contacts and email history records are removed. Any paid subscription is cancelled at the same time.
+* **Stored Email Files:** Encrypted email files are not deleted with the account. They remain unreadable without your encryption words and are removed automatically 30 days after they were created.
+* **Billing Records:** Our payment provider keeps invoices and payment records for billing and tax purposes. After deletion, our database no longer links them to you.
