@@ -3,40 +3,60 @@ sidebar_position: 1
 sidebar_label: Welcome
 ---
 
-# Welcome to our Duotail Documentation 
+# Welcome to Duotail
 
-**Master the world’s first Segmented Email Gateway in less than 5 minutes.**
+**Keep your real email address private, and decide who gets to reach you.**
 
-## Purpose
+Every time you sign up for a website, a newsletter or an online store, you hand over your email address. Over time, that address ends up on mailing lists you never agreed to, and junk mail piles up.
 
-**Our mission is simple: to provide every user with total control over their inbox and how they receive email.**
+Duotail gives you extra email addresses to hand out instead of your real one. Only the senders you allow get through to your inbox. Everyone else is stopped before they reach you. On a paid plan, those emails are kept on our website instead, so you can review them later.
 
-We're convinced that every person deserves a curated inbox. To make that a reality, we provide our full suite of incoming email controls to all our customers, free of charge.
+## How It Works
 
-## Key Concepts
+1. **Get your own Duotail inbox.** When you sign up, you get an inbox with an address such as `a_happy.rhino@duotail.com`.
+2. **Create an address for each purpose.** Make one for shopping (`a_happy.rhino_shopping@duotail.com`), one for newsletters (`a_happy.rhino_news@duotail.com`), and so on. Give these out instead of your real address.
+3. **Keep reading email where you already do.** Emails you allow are forwarded to your own email address, such as your Gmail or Outlook, so you don't need to check a new mailbox every day. If you want to look back, the [History](/tutorials/manage-history) page on our website lists your emails from the past 30 days, and you can open or download the ones we have kept for you.
 
-To get the most out of our services, it is important to understand these three core concepts:
-- **Channel**: A channel acts as an "umbrella" for all email addresses starting with its name. For example, owning the channel `a_happy.rhino` gives you control over `a_happy.rhino@duotail.com`, `a_happy.rhino_sports@duotail.com`, and `a_happy.rhino_food@duotail.com`. More details can be found in the [channel guide](/concepts/channel).
+## What Makes Duotail Different
 
-- **Route**: A Route defines the rules for incoming emails. The text following the last underscore in an address is the Route ID. For example, in `a_happy.rhino_food@duotail.com`, `food` is the route. If a route rule allows `deliciousgrass.com`, any emails from that domain will be delivered to your inbox. More details can be found in the [route guide](/concepts/route).
+- **Addresses that make sense.** No random strings to copy and forget. You name each address after what it is for, like `a_happy.rhino_shopping@duotail.com`, so every email tells you at a glance who sent it and why.
+- **A "don't email me, I'll email you" main address.** Your inbox's main address only accepts your contacts, the people you have chosen to trust. Anyone else is turned away, so it never fills up with strangers.
+- **Scam-resistant by default.** Strangers can't reach you unless you let them, which shuts out most scam and phishing emails before they arrive. For the emails that do get through, the summary points out warning signs such as tracking pixels, insecure links, or a "business" writing from a free Gmail or Outlook address.
+- **Two kinds of addresses for two kinds of senders.** A **Permission Enforced** address only accepts senders you have allowed, which is perfect for shopping and newsletters. A **Cold Reach Allowed** address lets each new person introduce themselves once, then waits for you to decide, which is ideal for a business card.
+- **Listen when you are expecting mail.** About to sign up somewhere new? Open an address for a short time, and the next sender is let in and remembered. Then it closes again by itself.
+- **One click from every email.** Each email we forward comes with a short summary and action links: allow the next email, allow this sender for good, or stop hearing from them. No settings page needed.
+- **Mute and unmute any time.** Turn any sender off when they get noisy and back on when you want them again. Your inbox only gets the mail you actually want, so it stays lean instead of growing out of control.
+- **Your stored emails are locked.** Emails we keep for you are encrypted with three secret words that only you know. See [Data Security](/privacy/data-encryption-protocol) to learn more.
 
-- **Contact**: A Contact is a trusted sender assigned to a channel. Emails originating from a Contact bypass Route configurations to reach any address under that channel. For example, if `angry.gazelle@example.com` is a Contact for a_happy.rhino, their emails will always be delivered to `a_happy.rhino@duotail.com`, `_sports`, and `_food` regardless of specific route rules. More details can be found in the [contact guide](/concepts/contact).
+## Get Started
 
-## What You'll Need
+Signing up is free. A free account lets you create addresses, choose who can reach you, and reply to the emails you receive. When you register, your inbox is named after your username. For example, the username `happy.rhino` gets the inbox `a_happy.rhino`.
 
-As our service is in its early stages, our domain is still being recognized by major email providers. To ensure you receive our communications, please whitelist `duotail.com` in your email settings. This will prevent our messages from being incorrectly flagged as junk.
+:::warning Keep our emails out of your junk folder
+Duotail is a new service, so some email providers may not recognize us yet. Before you register, add `duotail.com` to your safe senders list so you receive your confirmation email and forwarded mail: [Gmail](/tutorials/white-list-domain#whitelist-in-gmail) · [Outlook](/tutorials/white-list-domain#whitelist-in-outlook)
+:::
 
-[Gmail Guide](/tutorials/white-list-domain#whitelist-in-gmail) &nbsp;&nbsp;&nbsp;&nbsp; [Outlook Guide](/tutorials/white-list-domain#whitelist-in-outlook)
+1. [Register a free account](/tutorials/register)
+2. Follow the [Quick Start](/tutorials/quick-start) guide to create your first address and receive your first email.
 
-## Getting Started
+:::tip You don't have to set everything up in advance
+When you create an address for shopping or newsletters, choose **Permission Enforced**. A new address of this kind lets the **first** sender through automatically and remembers it. Just sign up on the website, and its emails will keep arriving from then on.
+:::
 
-To try our service, you can sign up for a free account. Upon successful registration, you will own the channel `a_<your_username>`. For example, a user named `happy.rhino` would own the channel `a_happy.rhino`, which means all the emails starting with `a_happy.rhino` at `duotail.com`.
+## Words You Will See
 
-[How to register a free account](/tutorials/register)
+You only need to know a few terms. The website and this documentation sometimes use different names for the same thing, so both are listed below.
 
-## Get Support
+| Name on the website | Also called | What it means |
+|---|---|---|
+| **Inbox** | [Channel](/concepts/channel) | Your group of Duotail addresses. They all start with the same name, such as `a_happy.rhino`. |
+| **Email address** | [Route](/concepts/route) | One address inside your inbox, made for one purpose, such as `a_happy.rhino_shopping@duotail.com`. Each one keeps its own list of allowed senders. |
+| **Contact** | [Contact](/concepts/contact) | A person you trust. Their emails reach every address in your inbox, without any extra setup. |
+| **Permission** | | A sender you have allowed (or blocked) on an address. It can be a whole website, such as `example.com`, or a single email address. |
 
-We are happy to assist you with any issues or answer any questions you may have. You can reach us through these two main channels:
+## Need Help?
 
-- Technical support: `support@duotail.com`
-- Other concerns: `contact@duotail.com` 
+We are happy to help with any problem or question.
+
+- Help using Duotail: `support@duotail.com`
+- Anything else: `contact@duotail.com`

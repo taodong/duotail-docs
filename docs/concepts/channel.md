@@ -9,9 +9,15 @@ sidebar_position: 1
 
 A **Channel** acts as an "umbrella" for all email addresses starting with its name. For example, owning the channel `a_happy.rhino` gives you ownership over any emails starting with `a_happy.rhino`, for example `a_happy.rhino@duotail.com`, `a_happy.rhino_sports@duotail.com`, and `a_happy.rhino_food@duotail.com`.
 
+:::info Channel and Inbox
+On our web page, channels are listed under **Inboxes**. An inbox and a channel are the same thing; "inbox" is simply the name the web page uses.
+:::
+
+![Inboxes page listing an alias channel and an identity channel](/img/concepts/channel/channel_entrance.png)
+
 ## Channel Email
 
-A channel email is an address where the local part (the text before the @ symbol) matches the specific channel name. For example, the channel `a_happy.rhino` uses the email address `a_happy.rhino@duotail.com` as its channel email.
+A channel email is an address where the local part (the text before the @ symbol) matches the specific channel name. For example, the channel `a_happy.rhino` uses the email address `a_happy.rhino@duotail.com` as its channel email. On the **Inboxes** page, the channel email is shown in the **Main Email** column.
 
 ### Security and Contact Managemen
 

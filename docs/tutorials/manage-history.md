@@ -13,7 +13,7 @@ The **History Page** is the centralized hub where all emails processed through y
 All email records from the past 30 days are directly accessible here.
 
 :::important Privacy & Security Note
-**Your data is cryptographically isolated.** We do not - and physically cannot - view the content of your encrypted emails. Because your decryption keys are generated only in your browser's transient memory using your secret words, it is mathematically impossible for anyone, including Duotail administrators, to access your stored messages.
+**Your data is cryptographically isolated.** Your stored emails are encrypted with a key that only your secret words can rebuild, and we never store those words or the key itself. When you download an email, the key is rebuilt from the words you enter, used only in our system's transient memory for that request, and then discarded. Without your words, your stored messages cannot be opened by anyone, including Duotail administrators. See our [Encryption Protocol](/privacy/data-encryption-protocol) for details.
 :::
 
 ## Filters
